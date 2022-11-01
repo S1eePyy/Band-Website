@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    box-sizing:border-box;
+    font-family:"Raleway";
+}
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+/*--------General Nav---------*/
+.nav ul{
+    /*ul by default has 16px margin*/
+    margin:0;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:.5em;
+    color: white;
+    text-decoration:none;
+}
+
+.nav a:hover{
+    /* background-color:rgba(255,255,255,.3); */
+    color:#cccccc
+}
+/*--------General Nav---------*/
+
+/*--------Main Nav---------*/
+.main-nav{
+    text-align:center;
+    font-size:1.1em;
+    font-weight:lighter;
+    border-bottom: 1px solid white;
+}
+
+.main-nav li{
+    padding:0 5%;
+}
+
+/*--------Main Nav---------*/
+
+.main-header{
+    background-color:#c57065;
+    padding-bottom:30px;
+}
+
+.band-name{
+    text-align:center;
+    margin:0;
+    font-size:4em;
+    font-family:"Open Sans";
+    color:white;
+}
+
+.band-name-large{
+    font-size:7em;
+}
+
+
+/*--------Section---------*/
+
+.content-section{
+    margin:1em;
+}
+
+
+.section-header{
+    font-family:"Open Sans";
+    color:#c57065;
+    text-align:center;
+    font-size:2.5em;
+}
+
+.about-band-image{
+    float:left;
+    width:150px;
+    margin:15px;
+    border-radius:50%;
+}
+
+/*--------Section---------*/
+.container{
+    max-width:900px;
+    margin: 0 auto;
+    padding:0 1.5em;
+}
+
+/*--------Main Footer---------*/
+.main-footer{
+    background-color:#c57065;
+    color:white;
+    padding:.25em 0;
+}
+
+.main-footer-container{
+    display:flex;
+    align-items:center;
+
+}
+
+.main-footer-container ul{
+    flex-grow:1;
+    text-align:end;
+}
+
+.footer-nav li{
+    padding:0 .5em;
+}
+
+.footer-nav img{
+    width:30px;
+    height:30px;
+}
+
+
+
+.footer-nav a:hover{
+  
+    transform: scale(1.1);
+}
+
+/*--------Main Footer---------*/
+
+.btn{
+    text-align:center;
+    vertical-align:middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    display:block;
+    margin:1em auto;
+   
+    color:white;
+    border: 2px solid rgb(133, 45, 59);
+    background-color:rgba(255,255,255,.2);
+    border-radius:0%;
+    font-size:1.5em;
+    padding-left:2em;
+    padding-right:2em;
+}
+
+.btn-header:hover{
+    background-color:rgba(255,255,255,.3);
+    
+}
+
+.btn-play{
+   display:block;
+    margin:0 auto;
+    color:rgb(133, 45, 59);
+    font-size:4em;
+    border-radius:50%;
+    padding:0;
+    width:100px;
+    height:100px;
+}
+
+.tour-row{
+    border-bottom:1px solid black;
+    padding-bottom:1em;
+    margin-bottom:1em;
+}
+
+.tour-row:last-child{
+    border-bottom:none;
+}
+
+.tour-item{
+    display:inline-block;
+    padding-right:0.5em;
+
+}
+
+.tour-date{
+    color:#555;
+    font-weight:bold;
+    width: 11%;
+}
+
+.tour-city{
+    width:24%;
+}
+
+.tour-arena{
+    width:42%;
+}
+
+.tour-btn{
+    max-width:19%;
+}
+
+.btn-primary{
+    color:white;
+    background-color:rgb(133, 45, 59);
+    /* background-color:#c57065; */
+    border:none;
+    border-radius:.3em;
+    font-weight:bold;
+
+}
+
+.btn-primary:hover{
+    background-color:rgb(190, 34, 60);
+}
+
+.shop-item{
+    width:50%;
+    padding-bottom:3em;
+}
+
+.shop-item-title{
+    height:56px;
+    display:block;
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    font-size:1.5em;
+    color:#333;
+    margin-bottom:15px;
+}
+
+.shop-item-image{
+    display:block;
+    margin:auto;
+    height:250px;
+}
+
+.shop-item-details{
+ text-align:center;
+
+}
+
+.shop-item-price{
+    display:inline-block;
+    margin:0 3em;
+}
+
+.shop-item-button{
+        display:inline-block;
+    margin:0 3em;
+}
+
+.shop-items{
+    display:flex;
+    flex-wrap:wrap; /*!!!!!*/
+    
+}
+
+.cart-header{
+    font-weight:bold;
+    font-size:1.2em;
+    color:#333;
+}
+
+.cart-column{
+    display:flex;
+    align-items:center;
+    border-bottom: 1px solid black;
+    margin-right:1.5em;
+    padding-bottom:10px;
+    margin-top:10px;
+}
+
+.cart-row{
+    display:flex;
+}
+
+.cart-item{
+    width:45%;
+}
+
+.cart-price{
+    width:20%;
+    font-size:1.2em;
+    color:#333;
+}
+
+.cart-quantity{
+    width:35%;
+}
+
+.cart-item-title{
+    color:#333;
+    margin-left:.5em;
+    font-size:1.2em;
+}
+
+.cart-item-image{
+    width:75px;
+    height:auto;
+    border-radius:10px;
+}
+
+.btn-danger{
+    color:white;
+    background-color:#EB5757;
+    border:none;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.btn-danger:hover{
+    background-color:#CC4C4C;
+}
+
+.cart-quantity-input{
+    height:34px;
+    width:50px;
+    border-radius:5px;
+    border:1px solid rgb(133, 45, 59);
+    background-color:#eee;
+    color:#333;
+    padding:0;
+    text-align:center;
+    font-size:1.2em;
+    margin-right:25px;
+}
+
+.cart-row:last-child{
+    border-bottom:1px solid black;
+}
+
+.cart-row:last-child .cart-column{
+    border:none;
+}
+
+.cart-total{
+    text-align:end;
+    margin-top:10px;
+    margin-right:10px;
+}
+
+.cart-total-title{
+    font-weight:bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+    color:black
+}
+
+.cart-total-price{
+    color:#333;
+    font-size:1.1em;
+}
+
+.btn-purchase{
+    display:block;
+    margin: 40px auto 80px auto;
+    font-size:1.7em;
+}
